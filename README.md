@@ -5,5 +5,5 @@ This repository is home to the project of Odin Project's Weather App as a part o
 
 # Technologies used 
 
-HTML, CSS, JS and SASS (Syntactically Awesome Style Sheets)
+HTML, CSS, JS and SCSS (Syntactically Awesome Style Sheets)
 
