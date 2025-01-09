@@ -166,7 +166,7 @@ const renderCurrentWeather = (latitude, longitude) => {
 
 
 const renderforecast = (latitude, longitude) => {
-    const weatherForecastUrl = `http://api.weatherapi.com/v1/forecast.json?key=${weatherKey}&q=${latitude},${longitude}&days=3&aqi=no&alerts=no`;
+    const weatherForecastUrl = `https://api.weatherapi.com/v1/forecast.json?key=${weatherKey}&q=${latitude},${longitude}&days=3&aqi=no&alerts=no`;
 
     const forecastParent = document.querySelector('.forecast--three-day')
     forecastParent.innerHTML = ''; 
