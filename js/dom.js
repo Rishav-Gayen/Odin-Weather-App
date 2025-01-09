@@ -33,7 +33,7 @@ export const handleSearch = () => {
 
 const renderCurrentWeather = (latitude, longitude) => {
     const weatherApiKey = weatherKey;
-    const weatherApiUrl = `http://api.weatherapi.com/v1/current.json?key=${weatherApiKey}&q=${latitude},${longitude}&aqi=no`;
+    const weatherApiUrl = `https://api.weatherapi.com/v1/current.json?key=${weatherApiKey}&q=${latitude},${longitude}&aqi=no`;
 
     const locationParentElem = document.querySelector('.current-weather--location');
     const temperatureParentElem = document.querySelector('.current-weather--temperature');
