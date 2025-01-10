@@ -5,5 +5,9 @@ This repository is home to the project of Odin Project's Weather App as a part o
 
 # Technologies used 
 
-HTML, CSS, JS and SCSS (Syntactically Awesome Style Sheets)
+HTML, CSS, JS
+
+# Live Link 
+
+https://lucky-gelato-684906.netlify.app/
 
